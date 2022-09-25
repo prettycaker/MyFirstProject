@@ -3,22 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <title>MYPROJECT</title>
 </head>
 
 <body>
+   
     <header>
         <nav>
             <div class="header_logo">
                 <span>Андрей Браун</span>
             </div>
             <div class="header_menu">
-                <ul>
-                    <li>Обо мне</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul class="ul">
+                    <li><a href="#">ОБО МНЕ</a></li>
+                    <li><a href="#">УСЛУГИ</a></li>
+                    <li><a href="#">КЕЙСЫ</a></li>
+                    <li><a href="#">ПРАЙС</a></li>
+                    <li><a href="#">ОТЗЫВЫ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,13 +36,13 @@
         </div>
 
     </div>
-    <section class="second_page">
+    <div class="second_page">
         <div class="second_title">
             <h2>Обо мне</h2>
         </div>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" class="centrimage">
         <br>
-        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="">
+        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="" class="centrimage" id="mainmini">
 
         <div class="second_text">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem culpa quasi natus sunt officia quis odit, est ex alias laborum dolorem laboriosam laudantium? Nulla atque consequuntur delectus expedita non harum.</p>
@@ -47,140 +51,167 @@
 
         </div>
         <input type="button" value="Скачать резюме">
-    </section>
+    </div>
     <div class="skills">
         <h2>Что Я умею</h2>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
-        <div class="skills_item">
-            <img src="img/%D0%BD%D0%BE%D1%83%D1%82.png" alt="">
-            <h3>Веб-Дизайн</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" class="centrimage">
+        <div class="skills_itemrow">
+            <div class="skills_item">
+                <img src="img/%D0%BD%D0%BE%D1%83%D1%82.png" alt="">
+                <h3>Веб-Дизайн</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
+            </div>
+            <div class="skills_item">
+                <img src="img/%D0%B7%D0%BD%D0%B0%D0%BA.png" alt="">
+                <h3>Разработка</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
+            </div>
+            <div class="skills_item">
+                <img src="img/%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0.png" alt="">
+                <h3>CEO-Оптимизация</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
+            </div>
+            <div class="skills_item">
+                <img src="img/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BE%D1%84%D0%BE%D0%BD.png" alt="">
+                <h3>Маркетинг</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
+            </div>
         </div>
-        <div class="skills_item">
-            <img src="img/%D0%B7%D0%BD%D0%B0%D0%BA.png" alt="">
-            <h3>Разработка</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
-        </div>
-        <div class="skills_item">
-            <img src="img/%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0.png" alt="">
-            <h3>CEO-Оптимизация</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
-        </div>
-        <div class="skills_item">
-            <img src="img/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BE%D1%84%D0%BE%D0%BD.png" alt="">
-            <h3>Маркетинг</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur laudantium veritatis molestiae facilis fugiat unde, nisi aliquid nulla pariatur aspernatur voluptate optio, reiciendis at. Odio minus quidem quae vero?</p>
-        </div>
+
 
     </div>
 
     <div class="cases">
         <h2>Кейсы</h2>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate distinctio in nesciunt. Quisquam provident voluptate nam quasi blanditiis expedita quaerat inventore a molestias, aspernatur ipsa eligendi aut rerum fugiat hic.</p>
-        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B02.png" alt="">
-        <div class="cases_info">
-            <h3>Client:</h3>
-            <p>Какая-то компания</p>
-            <h3>WEBSITE</h3>
-            <a href="#">http://somedomain.com</a>
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" class="centrimage">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate distinctio in nesciunt.</p>
+        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B02.png" alt="" id="opencloud">
+        <div class="cases_content">
+            <div class="cases_info">
+                <h3>Client:</h3>
+                <p class="cases_sub">Какая-то компания</p>
+                <h3>WEBSITE:</h3>
+                <a href="#" class="cases_sub">http://somedomain.com</a>
+                <input type="submit" value="VISIT LIVE SITE">
+            </div>
+            <div class="cases_project_info">
+                <h3>Название проекта</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit architecto et, ea, aspernatur, deleniti porro expedita ab dolorum perspiciatis soluta facilis officia voluptatibus nostrum iure ut harum quam commodi nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente odit commodi, repellat molestias, temporibus officia cupiditate doloremque error assumenda delectus totam dolorum nulla quaerat.</p>
+            </div>
         </div>
-        <div class="cases_project_info">
-            <h3>Название проекта</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit architecto et, ea, aspernatur, deleniti porro expedita ab dolorum perspiciatis soluta facilis officia voluptatibus nostrum iure ut harum quam commodi nihil.</p>
-        </div>
-        <input type="button" value="VISIT LIVE SITE">
+
+
     </div>
     <div class="price_counter">
         <h2>Расчет стоимости</h2>
-        <div class="price_counter_content">
-            <h3>Тип сайта</h3>
-            <select name="counter_selector" id="">
-                <option value="smt">Что-то</option>
-                <option value="smt2">Что-то</option>
-                <option value="smt3">Что-то</option>
-            </select>
+        <div class="price_counter_inner">
+            <div class="price_counter_content">
+                <h3>Тип сайта</h3>
+                <select name="counter_selector" id="">
+                    <option value="smt">Что-то</option>
+                    <option value="smt2">Что-то</option>
+                    <option value="smt3">Что-то</option>
+                </select>
+            </div>
+            <div class="price_counter_content">
+                <h3>Дизайн</h3>
+                <select name="counter_selector2" id="">
+                    <option value="smt4">Что-то</option>
+                    <option value="smt5">Что-то</option>
+                    <option value="smt6">Что-то</option>
+                </select>
+            </div>
+            <div class="price_counter_content">
+                <h3>Адаптивность</h3>
+                <select name="counter_selector3" id="">
+                    <option value="smt7">Что-то</option>
+                    <option value="smt8">Что-то</option>
+                    <option value="smt9">Что-то</option>
+                </select>
+            </div>
         </div>
-        <div class="price_counter_content">
-            <h3>Дизайн</h3>
-            <select name="counter_selector2" id="">
-                <option value="smt4">Что-то</option>
-                <option value="smt5">Что-то</option>
-                <option value="smt6">Что-то</option>
-            </select>
+
+        <div class="sroky">
+            <div class="podsroky">
+                <h4>Сроки</h4>
+                <p>0</p>
+            </div>
+            <div class="podsroky">
+                <h4>Стоимость</h4>
+                <p>0</p>
+            </div>
+
         </div>
-        <div class="price_counter_content">
-            <h3>Адаптивность</h3>
-            <select name="counter_selector3" id="">
-                <option value="smt7">Что-то</option>
-                <option value="smt8">Что-то</option>
-                <option value="smt9">Что-то</option>
-            </select>
-        </div>
-        <hr>
-        <h4>Сроки</h4>
-        <p>0</p>
-        <h4>Стоимость</h4>
-        <p>0</p>
+
 
     </div>
     <div class="statistic">
         <h2>Немного статистики</h2>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
-        <div class="statistic_items">
-            <img src="img/%D1%81%D0%BC%D0%B0%D0%B9%D0%BB.png" alt="">
-            <h3>120</h3>
-            <h4>Счастливых клиентов</h4>
-        </div>
-        <div class="statistic_items">
-            <img src="img/%D0%B7%D0%BD%D0%B0%D0%BA.png" alt="">
-            <h3>4,600</h3>
-            <h4>Часов работы</h4>
-        </div>
-        <div class="statistic_items">
-            <img src="img/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png" alt="">
-            <h3>340</h3>
-            <h4>Проектов завершено</h4>
-        </div>
-        <div class="statistic_items">
-            <img src="img/%D0%BA%D1%83%D0%B1%D0%BE%D0%BA.png" alt="">
-            <h3>23</h3>
-            <h4>Наград получено</h4>
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" class="centrimage">
+        <div class="statistic_content">
+            <div class="statistic_items">
+                <img src="img/%D1%81%D0%BC%D0%B0%D0%B9%D0%BB.png" alt="">
+                <h3>120</h3>
+                <h4>Счастливых клиентов</h4>
+            </div>
+            <div class="statistic_items">
+                <img src="img/%D0%B7%D0%BD%D0%B0%D0%BA.png" alt="">
+                <h3>4,600</h3>
+                <h4>Часов работы</h4>
+            </div>
+            <div class="statistic_items">
+                <img src="img/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png" alt="">
+                <h3>340</h3>
+                <h4>Проектов завершено</h4>
+            </div>
+            <div class="statistic_items">
+                <img src="img/%D0%BA%D1%83%D0%B1%D0%BE%D0%BA.png" alt="">
+                <h3>23</h3>
+                <h4>Наград получено</h4>
+            </div>
+
         </div>
     </div>
 
     <div class="reviews">
+
         <h2>Отзывы</h2>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
-        <br>
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" id="reviewline">
         <img src="img/%D0%B0%D0%B2%D0%B0%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat sit commodi illo, aliquid quibusdam qui harum distinctio vel suscipit dolorum fugit dolor dolores saepe, eum nihil, doloremque. Molestiae, sapiente.</p>
         <p> <strong>Михаил</strong>, Ген директор ПАО"Газпром"</p>
+
+
     </div>
 
     <div class="contacts">
         <h2>Мои контакты</h2>
-        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure placeat, velit expedita molestiae fuga dolores similique modi harum ad, tempore rerum eos quod rem aperiam ducimus obcaecati dolore eum nesciunt?</p>
-        <div class="contacts_items">
-            <img src="img/%D0%B3%D0%B5%D0%BE.png" alt="">
-            <p>Санкт-Петербург <br>
-                Невский проспект 11</p>
+        <img src="img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png" alt="" class="centrimage">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure placeat. Lorem ipsum . </p>
+        <div class="contacts_content">
+            <div class="contacts_items">
+                <img src="img/%D0%B3%D0%B5%D0%BE.png" alt="">
+                <p>Санкт-Петербург <br>
+                    Невский проспект 11</p>
+            </div>
+            <div class="contacts_items">
+                <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt="">
+                <p>info@companyname.com</p>
+            </div>
+            <div class="contacts_items">
+                <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt="">
+                <p>+7 999 999-99-99</p>
+            </div>
         </div>
-        <div class="contacts_items">
-            <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt="">
-            <p>info@companyname.com</p>
-        </div>
-        <div class="contacts_items">
-            <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt="">
-            <p>+7 999 999-99-99</p>
-        </div>
-        <h3>Оставьте мне сообшение</h3>
+        <h3>Оставьте мне сообщение</h3>
         <form action="">
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Email">
-            <textarea name="contact_textarea" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-            <input type="button" value="Отправить">
+            <div class="name_emal">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="text"><textarea name="contact_textarea" id="" cols="30" rows="10" placeholder="Сообщение"></textarea></div>
+            <div class="send"><input type="button" value="Отправить"></div>
+
         </form>
         <div class="social_media">
             <a href="#"><img src="img/%D1%84%D0%B1.png" alt=""></a>
