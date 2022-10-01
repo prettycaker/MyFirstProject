@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'fkg';
     src: url('../fonts/FranklinGothic-Medium.eot');
@@ -9,18 +10,25 @@
         url('../fonts/FranklinGothic-Medium.woff') format('woff'),
         url('../fonts/FranklinGothic-Medium.ttf') format('truetype'),
         url('../fonts/FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
-    font-weight:300;
-    font-style:normal;
+    font-weight: 300;
+    font-style: normal;
 }
-p{
-    font-family: Calibri,sans-serif;
+
+p {
+    font-family: Calibri, sans-serif;
 }
-h1, h2, h3, h4, h5{
-    font-family: fkg,sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: fkg, sans-serif;
     letter-spacing: .3px;
 }
-input{
-    font-family: fkg,sans-serif;
+
+input {
+    font-family: fkg, sans-serif;
     letter-spacing: .3px;
     font-weight: 1 !important;
 }
@@ -28,53 +36,58 @@ input{
 body {
     font-family: Arial, sans-serif;
     width: 100%;
-    
-}  
 
-nav{
-     font-family: fkg,sans-serif;
+}
+
+nav {
+    font-family: fkg, sans-serif;
     font-weight: 1;
     width: 100%;
     height: 60px;
     background: #344051;
     animation: navcolorcoming 2s ease forwards;
     position: fixed;
-    top:0px;
+    top: 0px;
     left: 0px;
     z-index: 1000;
 
 }
-    }
 }
-@keyframes navcolorcoming{
-    from{
+}
+
+@keyframes navcolorcoming {
+    from {
         margin-top: -70px;
     }
-    to{
+
+    to {
         margin-top: 0;
     }
 }
 
 .header_logo {
-     font-family: fkg,sans-serif;
+    font-family: fkg, sans-serif;
     color: #fff;
-    font-size: 23px;
+    font-size: 28px;
     line-height: 62px;
     float: left;
     opacity: 0;
     animation: logocoming 2s 1s ease forwards;
-    
+
 }
-@keyframes logocoming{
-    from{
+
+@keyframes logocoming {
+    from {
         opacity: 0;
         margin-left: -400px;
     }
-    to{
-      opacity: 1;  
+
+    to {
+        opacity: 1;
         margin-left: 0;
     }
 }
+
 .header_menu {
     float: right;
     animation: menucoming 1s 2s ease forwards;
@@ -89,42 +102,48 @@ nav{
     font-size: 16px;
     text-transform: none;
 }
+
 header a {
     text-decoration: none;
     transform: scale(1);
     display: inline-block;
-    transition:.5s;
-    
-    
+    transition: .5s;
+
+
 }
-header li a:visited{
+
+header li a:visited {
     color: white;
 }
-header li a:hover{
+
+header li a:hover {
     color: #e88604;
 }
-header a:active{
-     transition:.1s;
+
+header a:active {
+    transition: .1s;
     transform: scale(1.2)
-    
 }
-@keyframes menucoming{
-    from{
+
+@keyframes menucoming {
+    from {
         opacity: 0;
         margin-right: -432px;
     }
-    to{
+
+    to {
         opacity: 1;
         margin-right: 0;
     }
-    
+
 }
 
 .head_page {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) center/cover no-repeat;
     float: left;
+
 
 }
 
@@ -140,15 +159,16 @@ header a:active{
     font-size: 64px;
     font-weight: 600;
     opacity: 0;
-    animation: titlecoming 1.5s 1s cubic-bezier(.38,.68,.33,.31) forwards;
+    animation: titlecoming 1.5s 1s cubic-bezier(.38, .68, .33, .31) forwards;
 }
-@keyframes titlecoming{
-    from{
+
+@keyframes titlecoming {
+    from {
         opacity: 0;
         left: -400px;
     }
-    to
-    {
+
+    to {
         opacity: 1;
         left: 0;
     }
@@ -162,16 +182,18 @@ header a:active{
     animation: subtitlecoming 1s 2.5s ease forwards;
 
 }
-@keyframes subtitlecoming{
-    from{
+
+@keyframes subtitlecoming {
+    from {
         margin-top: -50px;
         opacity: 0;
     }
-    to{
+
+    to {
         margin-top: 45px;
         opacity: 1;
     }
-    
+
 }
 
 .title_head input {
@@ -190,28 +212,31 @@ header a:active{
     transition: .2s;
     opacity: 0;
     animation: buttoncoming 1s 3.2s ease forwards;
-    
-    
+
+
 
 
 }
-.title_head input:hover{
-    background-color:#6d7682;
+
+.title_head input:hover {
+    background-color: #6d7682;
     transform: scale(1.2);
     color: #fff;
-        
+
 }
-.title_head input:active{
+
+.title_head input:active {
     letter-spacing: 2px;
-    
+
 }
-@keyframes buttoncoming{
-    0%{
+
+@keyframes buttoncoming {
+    0% {
         opacity: 0;
         margin-top: 10px;
     }
-    
-    100%{
+
+    100% {
         opacity: 1;
         margin-top: 57px;
     }
@@ -233,16 +258,18 @@ header a:active{
     margin-top: 100px;
     font-size: 30px;
     opacity: 0;
-    animation: secondtitle 2s 3s ease forwards ;
-    
-    
+    animation: secondtitle 2s 3s ease forwards;
+
+
 
 }
-@keyframes secondtitle{
+
+@keyframes secondtitle {
     from {
         opacity: 0;
         bottom: -30px;
     }
+
     to {
         opacity: 1;
         bottom: 0px;
@@ -264,24 +291,26 @@ header a:active{
 }
 
 #mainmini {
-    position:relative;
+    position: relative;
     margin-top: 58px;
     opacity: 0;
     animation: mainmini 3s 3s ease forwards;
 }
-@keyframes mainmini{
-    from{
+
+@keyframes mainmini {
+    from {
         top: -70px;
         opacity: 0;
     }
-    to{
-        top:0;
+
+    to {
+        top: 0;
         opacity: 1;
     }
 }
 
 .second_text {
-    
+
     width: 733px;
     margin: 30px auto 34px;
     color: #3f495a;
@@ -306,11 +335,12 @@ header a:active{
     opacity: 0;
     animation: mainmini 3s 3.8s ease forwards;
 }
-.second_page input:hover{
-     background-color:#6d7682;
+
+.second_page input:hover {
+    background-color: #6d7682;
     transform: scale(1.2);
     color: #fff;
-        
+
 }
 
 .skills {
@@ -438,7 +468,7 @@ header a:active{
     width: 100%;
     height: 900px;
     float: left;
-    
+
 }
 
 .price_counter > h2 {
@@ -474,88 +504,106 @@ header a:active{
     height: 50px;
     width: 880px;
 }
-.sroky{
-    width:880px;
-   display: block;
+
+.sroky {
+    width: 880px;
+    display: block;
     margin: 0px auto 0px;
     font-size: 18px;
     font-weight: bold
 }
-.podsroky{
+
+.podsroky {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
 }
-.sroky h4{
+
+.sroky h4 {
     font-weight: 600;
 }
+
 .statistic {
     float: left;
-    width:100%;
+    width: 100%;
     height: 500px;
     background: url(../img/statistic.png) center/cover no-repeat;
     background-attachment: fixed;
 }
-.statistic h2{
+
+.statistic h2 {
     text-align: center;
     margin-top: 100px;
     font-size: 30px;
     font-weight: 770;
 }
-.statistic_content{
+
+.statistic_content {
     display: flex;
     justify-content: space-between;
     width: 1024px;
     margin: 95px auto 0px;
 }
-.statistic_content img{
+
+.statistic_content img {
     width: 56px;
     color: #d17e00;
     display: block;
     height: 52px;
     margin: 0px auto 35px;
 }
-.statistic_items{
+
+.statistic_items {
     text-align: center;
-    
+
 }
-.statistic_items>h3,h4{
+
+.statistic_items > h3,
+h4 {
     margin-bottom: 35px;
 }
-.statistic_items h3{
+
+.statistic_items h3 {
     font-size: 30px;
-    font-weight:1000;
+    font-weight: 1000;
 }
-.statistic_items h4{
+
+.statistic_items h4 {
     font-size: 16px;
     font-weight: 550
 }
-.reviews{
+
+.reviews {
     float: left;
     width: 700px;
-    height:590px;
+    height: 590px;
     margin: 0px 617px 0px;
     text-align: center;
 }
-.reviews h2{
-        margin-top: 100px;
+
+.reviews h2 {
+    margin-top: 100px;
     font-size: 30px;
     font-weight: 770;
 
 }
-.reviews img{
+
+.reviews img {
     display: block;
- margin: 0px  auto 32px;
+    margin: 0px auto 32px;
 }
-#reviewline{
+
+#reviewline {
     margin-top: 20px;
     margin-bottom: 58px;
 }
+
 .reviews p {
     margin-bottom: 32px;
     font-size: 16px;
 }
-.reviews::after{
+
+.reviews::after {
     content: "";
     display: block;
     background: #d17e00;
@@ -563,16 +611,18 @@ header a:active{
     height: 10px;
     width: 10px;
     margin: 0px auto 0px;
-    
+
 
 }
-.contacts{
+
+.contacts {
     float: left;
     width: 100%;
     height: 808px;
     background: url(../img/contact.png) center/cover no-repeat;
 }
-.contacts h2{
+
+.contacts h2 {
     margin-top: 100px;
     font-size: 30px;
     font-weight: 770;
@@ -580,52 +630,61 @@ header a:active{
     text-transform: uppercase;
     color: #fff;
 }
-.contacts>p{
+
+.contacts > p {
     text-align: center;
     margin: 30px auto 50px;
     color: #fff;
     font-size: 16px;
 }
+
 .contacts_content {
     display: flex;
     justify-content: space-between;
     width: 615px;
     margin: 0px auto 0px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
+
 .contacts_items img {
     margin-bottom: 16px;
 }
-.contacts h3{
+
+.contacts h3 {
     font-size: 25px;
     text-align: center;
     color: #fff;
     margin: 30px auto 0px;
     text-transform: uppercase;
 }
-.contacts form{
+
+.contacts form {
     height: 217px;
-   margin: 10px auto 10px;
+    margin: 10px auto 10px;
     width: 734px;
     display: flex;
     flex-direction: column;
 }
-.name_emal{
+
+.name_emal {
     display: flex;
     justify-content: space-between;
 }
-.name_emal input{
+
+.name_emal input {
     height: 33px;
     width: 352px;
     margin-top: 40px;
 }
-.text textarea{
+
+.text textarea {
     height: 100px;
     width: 734px;
-    margin-top:14px;
+    margin-top: 14px;
 }
-.send input{
+
+.send input {
     display: block;
     background: none;
     border: 2px solid;
@@ -638,36 +697,71 @@ header a:active{
     transform: scale(1);
     transition: all .5s;
 }
-.send input:hover{
+
+.send input:hover {
     background: #fff;
     color: #3f495a;
     transform: scale(1.1);
     letter-spacing: 1px;
-    
+
 }
 
-.social_media{
+.social_media {
     display: flex;
     justify-content: space-between;
     margin: 112px auto 0px;
     width: 415px;
 }
-.map{
+
+.map {
     float: right;
     width: 1920px;
 }
+
 footer {
-    float: left;  
-     width: 100%;
+    float: left;
+    width: 100%;
     height: 60px;
     background: #344051;
     text-align: center;
     color: #fff;
 }
-footer p{
+
+footer p {
     margin: 20px auto 0px;
-    
+
 }
 
+.white-btn:visited {
+    color: white;
+}
 
+.dropdown-item:visited {
+    color: black;
+}
 
+.dropdown-item:active {
+    background: #3f495a;
+    color: white;
+}
+
+@media(max-width:992px) {
+    .white-btn {
+        opacity: 0;
+        position: relative;
+        animation: menubtn 1s linear forwards;
+    }
+}
+
+@keyframes menubtn {
+    0% {
+        top: -20px;
+        left: 0;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
