@@ -31,13 +31,13 @@ $(".ul").find("li").css("color", "black");
 $('.box:empty'/*parent*/).css('border','10px solid red');
 $('a[href*="#"]:even').css('color','red');
 
-//Должно срабоать но не работает
-/*$(document).ready(function(){
+
+$(document).ready(function(){
     $("#pidtest").click(function(){
     $(this).toggleClass("red");
 });
 
-});*/
+});
 //Take musi fungovat
 /*$("#pidtest").mouseenter(function(){
     $(this).toggleClass("red");
